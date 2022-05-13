@@ -1,0 +1,19 @@
+.form-wrapper {
+  .form {
+    background-color: white;
+    box-shadow: 11px 15px 22px #0000002e;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 24px 22px;
+    max-width: 380px;
+    width: 90%;
+    border-radius: 11px;
+    .form-control {
+      margin: 10px 0;
+    }
+    .form-btn {
+      margin-top: 20px;
+    }
+  }
+}

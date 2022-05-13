@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(226 232 238);
+  color: #373737;
+}
+.App {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.full-screen-height {
+  min-height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.074);
+  top: 0;
+  left: 0;
+}
+.link {
+  margin-top: 18px;
+  text-decoration: none;
+  color: rgb(7 142 255);
+}
+.link:hover {
+  text-decoration: underline;
+}
+.card {
+  width: 100%;
+  margin: 18px 0;
+  text-align: left;
+  border-radius: 10px !important;
+}
+.textarea {
+  width: 100%;
+  min-height: 150px;
+  outline: none;
+  border: none;
+  font-family: sans-serif;
+  resize: unset;
+  font-size: 18px;
+}
+.textareaCompressed {
+  min-height: auto !important;
+  font-size: 15px !important;
+}
+
+.half-width {
+  max-width: 700px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  text-transform: capitalize !important;
+}
+
+.pageCentered {
+  min-height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigError {
+  margin: 0;
+  font-size: 22px !important;
+  color: red;
+  font-weight: 800;
+}

@@ -26,13 +26,13 @@ const Navbar = () => {
     {
       name: "Your Profile",
       onClick: () => {
-        navigate(`/user/${user._id}`);
+        navigate(`/freindsapp-mern/user/${user._id}`);
       },
     },
     {
       name: "settings",
       onClick: () => {
-        navigate("/settings");
+        navigate("/freindsapp-mern/settings");
       },
     },
     {
@@ -80,7 +80,7 @@ const Navbar = () => {
           <Box sx={{ flexGrow: 0 }}>
             <Chip
               onClick={() => {
-                navigate(`user/${user._id}`);
+                navigate(`/freindsapp-mern/user/${user._id}`);
               }}
               avatar={
                 <Avatar

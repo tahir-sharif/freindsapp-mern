@@ -103,7 +103,7 @@ const PostDialog = ({ open, handleClose }) => {
       if (user._id === _id) {
         dispatch(getPostsById(_id));
       } else {
-        navigate(`/user/${user._id}`);
+        navigate(`/freindsapp-mern/user/${user._id}`);
       }
     }
   }, [status]);

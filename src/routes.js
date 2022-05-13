@@ -14,15 +14,22 @@ import UsersProfile from "./pages/profileView/UsersProfile";
 import Settings from "./pages/settings/Settings";
 
 const MRoutes = () => {
-  const {isLoggedIn} = useSelector((state) => state.auth);
+  const { isLoggedIn } = useSelector((state) => state.auth);
   return (
     <BrowserRouter>
       <Routes>
+        <Route index element={<Navigate to="/freindsapp-mern" />} />
         <Route path="/freindsapp-mern/login" element={<Login />} />
         <Route path="/freindsapp-mern/register" element={<Register />} />
         <Route
           path="/freindsapp-mern"
-          element={isLoggedIn ? <MainLayout /> : <Navigate to={"/freindsapp-mern/login"} />}
+          element={
+            isLoggedIn ? (
+              <MainLayout />
+            ) : (
+              <Navigate to={"/freindsapp-mern/login"} />
+            )
+          }
         >
           <Route index element={<HomePage />} />
           <Route path="settings" element={<Settings />} />

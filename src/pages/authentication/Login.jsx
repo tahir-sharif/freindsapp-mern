@@ -38,7 +38,7 @@ const Login = () => {
 
   useEffect(() => {
     if (isLoggedIn) {
-      navigate("/");
+      navigate("/freindsapp-mern/");
     }
   }, [isLoggedIn]);
 

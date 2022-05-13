@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/freindsapp-mern/static/css/main.be3ca89e.css",
-    "main.js": "/freindsapp-mern/static/js/main.c7b4482c.js",
+    "main.js": "/freindsapp-mern/static/js/main.97f78063.js",
     "static/media/image.png": "/freindsapp-mern/static/media/image.2e0d30f3e57996f0d3dc.png",
     "index.html": "/freindsapp-mern/index.html",
     "main.be3ca89e.css.map": "/freindsapp-mern/static/css/main.be3ca89e.css.map",
-    "main.c7b4482c.js.map": "/freindsapp-mern/static/js/main.c7b4482c.js.map"
+    "main.97f78063.js.map": "/freindsapp-mern/static/js/main.97f78063.js.map"
   },
   "entrypoints": [
     "static/css/main.be3ca89e.css",
-    "static/js/main.c7b4482c.js"
+    "static/js/main.97f78063.js"
   ]
 }

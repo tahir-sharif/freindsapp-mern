@@ -18,8 +18,8 @@ const MRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="freindsapp-mern/login" element={<Login />} />
-        <Route path="freindsapp-mern/register" element={<Register />} />
+        <Route path="/freindsapp-mern/login" element={<Login />} />
+        <Route path="/freindsapp-mern/register" element={<Register />} />
         <Route
           path="/freindsapp-mern"
           element={isLoggedIn ? <MainLayout /> : <Navigate to={"/freindsapp-mern/login"} />}

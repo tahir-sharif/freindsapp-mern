@@ -125,7 +125,7 @@ const Register = () => {
             <Button className=" form-btn" type="submit" variant="contained">
               Sign Up
             </Button>
-            <Link className="link" to="/login">
+            <Link className="link" to="/freindsapp-mern/login">
               Already have an account ? Login
             </Link>
           </>

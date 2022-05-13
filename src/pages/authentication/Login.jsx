@@ -79,7 +79,7 @@ const Login = () => {
               Login
             </Button>
 
-            <Link className="link" to="/register">
+            <Link className="link" to="/freindsapp-mern/register">
               Don't have an account ?
             </Link>
           </>

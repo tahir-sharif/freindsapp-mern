@@ -36,7 +36,7 @@ const Register = () => {
   if (requestCompleted) {
     dispatch(resetState());
     dispatch(login({ email: data.email, password: data.password }));
-    navigate("/");
+    navigate("/freindsapp-mern/");
   }
 
   const disableFutureDate = () => {
